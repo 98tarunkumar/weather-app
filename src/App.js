@@ -9,7 +9,7 @@ function App() {
   return (
     <Container className='my-4'>
       <Stack direction='horizontal' gap='2'>
-        <h1 className='me-auto'>Weather App</h1>
+        <h1 className='me-auto'>Weather App1</h1>
         <Button onClick={() => setShowAddWeatherModal(true)} variant='outline-secondary'>
           Add
         </Button>
