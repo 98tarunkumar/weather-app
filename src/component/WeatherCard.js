@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, Stack, Collapse, CloseButton } from 'react-bootstrap';
+import { Card, Collapse, CloseButton } from 'react-bootstrap';
 import { capitalize } from 'lodash';
 import { useWeather } from '../weatherContext/WeatherContext';
 
@@ -19,7 +19,7 @@ function WeatherCard(props) {
         />
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <Card.Title>{capitalize(props.name)}</Card.Title>
-          <img src={imageUrl} alt={'Image'}></img>
+          <img src={imageUrl} alt={'weatherImage'}></img>
         </div>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
