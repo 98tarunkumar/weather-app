@@ -6,11 +6,9 @@ import { useWeather } from '../weatherContext/WeatherContext';
 function WeatherCard(props) {
   const [open, setOpen] = useState(false);
   const { deleteReport } = useWeather();
-  console.log(props);
   let imageUrl = `http://openweathermap.org/img/w/${props.icon}.png`;
   const handleDelete = () => {
     deleteReport({ id: props.id });
-    console.log('delete');
   };
   return (
     <Card lg={6}>

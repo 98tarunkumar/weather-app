@@ -21,7 +21,6 @@ function AddWeatherModal({ show, handleClose }) {
         `https://api.openweathermap.org/data/2.5/weather?q=${cityRef.current.value}&appid=${API_KEY}&units=metric`
       )
       .then((response) => {
-        console.log(response);
         addReport({
           name: cityRef.current.value,
           feels_like: response.data.main.feels_like,

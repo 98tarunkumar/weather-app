@@ -10,7 +10,6 @@ function App() {
     <Container className='my-4'>
       <Stack direction='horizontal' gap='2'>
         <h1 className='me-auto'>Weather App</h1>
-        {console.log(report)}
         <Button onClick={() => setShowAddWeatherModal(true)} variant='outline-secondary'>
           Add
         </Button>
