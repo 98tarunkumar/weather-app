@@ -1,4 +1,4 @@
-#Live  <a src='https://live-weatherr.netlify.app/'> 🔗</a>
+#Live  🔗(https://live-weatherr.netlify.app) 
 
 # Getting Started with Create React App
 
